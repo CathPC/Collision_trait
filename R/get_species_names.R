@@ -46,13 +46,14 @@ get_species_names <- function(quiet = FALSE) {
   ## Read data ----
   
   data <- read.csv(filename)
+  data <- data[!is.na(data$"genus"), ]
   
   
   ## Verbose ----
   
   if (!quiet) {
     cat("\n---- Results -----------------------------------\n")
-    cat("   * Database name:              ", "Bioshifts", "\n")
+    cat("   * Database name:              ", "Collision", "\n")
     cat("   * Number of species:          ", nrow(data), "\n")
     cat("Done.\n\n")
   }

@@ -2,7 +2,7 @@
 #' 
 #' @description
 #' Queries GBIF, ITIS and NCBI databases to retrieve species accepted names by
-#' using `rbgif`, `bdc`, `taxadb` packages.
+#' using `rgbif`, `bdc`, `taxadb` packages.
 #' 
 #' This function gives priority to GBIF. If accepted names are found in ITIS
 #' or NCBI databases, this function tries to find these accepted names in the 
@@ -286,6 +286,13 @@ retrieve_accepted_names <- function(data, kingdom = NULL,
   
   backbone <- backbone[order(backbone$"cleaned_name"), ]
   rownames(backbone) <- NULL
+  
+  
+  ## Hack to fix ----
+  
+  if (!species_only) {
+    backbone$"accepted_name" <- gsub("\\sNA$", "", backbone$"accepted_name")
+  }
   
   
   ## Verbose ----

@@ -56,19 +56,7 @@ extract_species_names <- function(database, quiet = FALSE) {
   
   ## Retrieve database metadata ----
   
-  metadata <- list_databases()
-  source   <- metadata[metadata$"database" == database, "source", drop = TRUE]
-  
-  
-  if (source == "traitdata") {
-  
-    trait_data <- read_traitdata(database)
-  }
-  
-  if (source == "wget") {
-    
-    trait_data <- read_wget_data(database)
-  }
+  trait_data <- read_traitdata(database)
   
   
   ## Verbose ----

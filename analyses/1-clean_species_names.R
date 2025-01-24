@@ -17,7 +17,7 @@
 
 species_list <- get_species_names() |> 
   clean_species_names() |> 
-  retrieve_accepted_names()
+  retrieve_accepted_names(species_only = FALSE)
 
 
 ## Save species list ----
@@ -31,5 +31,5 @@ qs::qsave(x    = species_list,
 
 ## Clean workspace ----
 
-rm(bioshifts_species, envir = .GlobalEnv)
+rm(species_list, envir = .GlobalEnv)
 gc(verbose = FALSE)

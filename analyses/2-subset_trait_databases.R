@@ -19,29 +19,23 @@
 
 ## Do not process trait databases again and again ----
 
-options("update_compilation" = FALSE)
+options("update_compilation" = TRUE)
 
 
 ## Import Bioshifts species names ----
 
-bioshifts_species <- qs::qread(here::here("data", "derived-data", 
-                                          "bioshifts-species_list.qs"))
+species_names <- qs::qread(here::here("data", "derived-data", "species_list.qs"))
 
 
 ## Get list of trait databases ----
 
-trait_databases <- list_databases()
-
-
-## For one specific database ----
-
-trait_databases <- trait_databases |>
-  subset(trait_databases$"database" == "PalmTraits")
+# trait_databases <- c("pantheria", "amphibio")
+trait_databases <- "amphibio"
 
 
 ## Subset 'traitdata' and export tables ----
 
-pipeline <- lapply(trait_databases$"database", function(database) {
+pipeline <- lapply(trait_databases, function(database) {
 
   filename <- here::here("data", "derived-data", 
                          paste0("species_list-", database, ".qs"))
@@ -54,8 +48,8 @@ pipeline <- lapply(trait_databases$"database", function(database) {
     traitdata_species <- database |> 
       extract_species_names() |> 
       clean_species_names() |> 
-      retrieve_accepted_names() |> 
-      filter_species_names(reference = bioshifts_species$"accepted_name")
+      retrieve_accepted_names(species_only = FALSE) |> 
+      filter_species_names(reference = species_names$"accepted_name")
     
     
     ## Save species list ----

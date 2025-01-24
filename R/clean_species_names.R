@@ -24,7 +24,8 @@
 #' @examples
 #' ## See `make.R`
 
-clean_species_names <- function(data, species_only = TRUE, quiet = FALSE,
+clean_species_names <- function(data, species_only = TRUE, quiet = FALSE, 
+                                genus = TRUE,
                                 n_cores = parallel::detectCores() - 2) {
   
   ## Check args ----
@@ -133,9 +134,14 @@ clean_species_names <- function(data, species_only = TRUE, quiet = FALSE,
     x <- tolower(x)
     x <- paste0(toupper(substr(x, 1, 1)), substr(x, 2, nchar(x)))
     
-    if (length(strsplit(x, " ")[[1]]) == 1) {
-      x <- paste0(x, " sp.")
+    
+    if (!genus) {
+      if (length(strsplit(x, " ")[[1]]) == 1) {
+        x <- paste0(x, " sp.")
+      }  
     }
+    
+    
     
     if (species_only) {
       
@@ -143,7 +149,9 @@ clean_species_names <- function(data, species_only = TRUE, quiet = FALSE,
       
       if (length(x) > 0) {
         
-        x <- paste0(x[1:2], collapse = " ")
+        if (length(x) > 1) {
+          x <- paste0(x[1:2], collapse = " ") 
+        }
         
       } else {
         
