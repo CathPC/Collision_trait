@@ -1,9 +1,9 @@
-#' Clean Bioshifts species names
+#' Clean species names
 #' 
 #' @description 
 #' This script contains the first step of the workflow:
 #' 
-#' - Import `data/bioshifts_v3_harmonized.csv`
+#' - Import `data/species_list.csv`
 #' - Extract original names
 #' - Clean original names
 #' - Retrieve accepted names
@@ -15,7 +15,7 @@
 
 ## Clean Bioshifts species names ----
 
-bioshifts_species <- get_bioshifts_species() |> 
+species_list <- get_species_names() |> 
   clean_species_names() |> 
   retrieve_accepted_names()
 
@@ -24,9 +24,9 @@ bioshifts_species <- get_bioshifts_species() |>
 
 dir.create(here::here("data", "derived-data"), showWarnings = FALSE)
 
-qs::qsave(x    = bioshifts_species, 
+qs::qsave(x    = species_list, 
           file = here::here("data", "derived-data", 
-                            "bioshifts-species_list.qs"))
+                            "species_list.qs"))
 
 
 ## Clean workspace ----
