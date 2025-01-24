@@ -1,0 +1,110 @@
+nom_cit,original_name,order,family,genus,grp2_np
+Amphibiens Grenouille,Anura,Anura,NA,NA,Amphibiens
+Sciurus vulgaris,Sciurus vulgaris,Rodentia,Sciuridae,Sciurus,Mammifères
+Leporides Lapin,Oryctolagus cuniculus,Lagomorpha,Leporidae,Oryctolagus,Mammifères
+Erinaceides Herisson,Erinaceus europaeus,Eulipotyphla,Erinaceidae,Erinaceus,Mammifères
+Sus scrofa,Sus scrofa,Cetartiodactyla,Suidae,Sus,Mammifères
+Columbidae,Columbidae,Columbiformes,Columbidae,NA,Oiseaux
+Aves,Aves,NA,NA,NA,Oiseaux
+genette,Genetta genetta,Carnivora,Viverridae,Genetta,Mammifères
+Canides Renard,Vulpes vulpes,Carnivora,Canidae,Vulpes,Mammifères
+Martes,Martes,Carnivora,Mustelidae,Martes,Mammifères
+Capreolus capreolus,Capreolus capreolus,Cetartiodactyla,Cervidae,Capreolus,Mammifères
+Chordata,Chordata,NA,NA,NA,Autres
+Rongeurs Ragondin,Myocastor coypus,Rodentia,Echimyidae,Myocastor,Mammifères
+Meles meles,Meles meles,Carnivora,Mustelidae,Meles,Mammifères
+Mustelides Fouine,Martes foina,Carnivora,Mustelidae,Martes,Mammifères
+Lepus,Lepus,Lagomorpha,Leporidae,Lepus,Mammifères
+Phasianus colchicus,Phasianus colchicus,Galliformes,Phasianidae,Phasianus,Oiseaux
+Buteo buteo,Buteo buteo,Accipitriformes,Accipitridae,Buteo,Oiseaux
+Rapaces nocturnes Chouette effraie,Tyto alba,Strigiformes,Tytonidae,Tyto,Oiseaux
+Felis silvestris,Felis silvestris,Carnivora,Felidae,Felis,Mammifères
+Autres oiseaux Merle,Turdus merula,Passeriformes,Turdidae,Turdus,Oiseaux
+Rapaces nocturnes Chouette indeterminee,Strigidae,Strigiformes,Strigidae,NA,Oiseaux
+Mustela putorius,Mustela putorius,Carnivora,Mustelidae,Mustela,Mammifères
+Rapaces nocturnes Chouette effraie,Tyto,Strigiformes,Tytonidae,Tyto,Oiseaux
+Strigiformes,Strigiformes,Strigiformes,NA,NA,Oiseaux
+Amphibiens Indetermine,Amphibia,NA,NA,NA,Amphibiens
+Reptiles Indetermine,Squamata,Squamata,NA,NA,Reptiles
+Reptiles Couleuvre,Colubridae,Squamata,Colubridae,NA,Reptiles
+Rodentia,Rodentia,Rodentia,NA,NA,Mammifères
+Rapaces nocturnes Faucon crecerelle,Falco tinnunculus,Falconiformes,Falconidae,Falco,Oiseaux
+Rapaces nocturnes Chouette hulotte,Strix aluco,Strigiformes,Strigidae,Strix,Oiseaux
+Autres oiseaux Grive,Turdidae,Passeriformes,Turdidae,NA,Oiseaux
+Corvus,Corvus,Passeriformes,Corvidae,Corvus,Oiseaux
+Autres oiseaux Pigeon ramier,Columba palumbus,Columbiformes,Columbidae,Columba,Oiseaux
+Passeriformes,Passeriformes,Passeriformes,NA,NA,Oiseaux
+Anatidae,Anatidae,Anseriformes,Anatidae,NA,Oiseaux
+Amphibiens Salamandre tachetee,Salamandra salamandra,Urodela,Salamandridae,Salamandra,Amphibiens
+Castor fiber,Castor fiber,Rodentia,Castoridae,Castor,Mammifères
+vipere,Vipera,Squamata,Viperidae,Vipera,Reptiles
+Reptiles Couleuvre d'Esculape,Zamenis longissimus,Squamata,Colubridae,Zamenis,Reptiles
+Mustelides Martre,Martes martes,Carnivora,Mustelidae,Martes,Mammifères
+Pica pica,Pica pica,Passeriformes,Corvidae,Pica,Oiseaux
+Mustelidae,Mustelidae,Carnivora,Mustelidae,NA,Mammifères
+Rongeurs Rat indetermine,Muridae,Rodentia,Muridae,NA,Mammifères
+Rapaces diurnes Faucon indetermine,Falco,Falconiformes,Falconidae,Falco,Oiseaux
+Autres oiseaux Gallinule poule-d'eau,Gallinula chloropus,Gruiformes,Rallidae,Gallinula,Oiseaux
+Lutra lutra,Lutra lutra,Carnivora,Mustelidae,Lutra,Mammifères
+Garrulus glandarius,Garrulus glandarius,Passeriformes,Corvidae,Garrulus,Oiseaux
+Cervides Cerf elaphe,Cervus elaphus,Cetartiodactyla,Cervidae,Cervus,Mammifères
+renard,Vulpes vulpes vulpes,Carnivora,Canidae,Vulpes,Mammifères
+Mustela,Mustela,Carnivora,Mustelidae,Mustela,Mammifères
+Ciconia nigra,Ciconia ciconia,Pelecaniformes,Ciconiidae,Ciconia,Oiseaux
+Autres oiseaux Moineau,Passeridae,Passeriformes,Passeridae,NA,Oiseaux
+Autres oiseaux Rougegorge,Erithacus rubecula,Passeriformes,Muscicapidae,Erithacus,Oiseaux
+Animal,Animalia,NA,NA,NA,Autres
+Rapaces diurnes Epervier,Accipiter,Accipitriformes,Accipitridae,Accipiter,Oiseaux
+Corvus corone,Corvus corone,Passeriformes,Corvidae,Corvus,Oiseaux
+Canis lupus,Canis lupus,Carnivora,Canidae,Canis,Mammifères
+mulot,Apodemus,Rodentia,Muridae,Apodemus,Mammifères
+Autres oiseaux Perdrix rouge,Alectoris rufa,Galliformes,Phasianidae,Alectoris,Oiseaux
+lievre,Lepus europaeus,Lagomorpha,Leporidae,Lepus,Mammifères
+ecureuil,Sciurus,Rodentia,Sciuridae,Sciurus,Mammifères
+Amphibiens Crapaud commun,Bufo bufo,Anura,Bufonidae,Bufo,Amphibiens
+Autres oiseaux Mesange,Sylviidae,Passeriformes,Sylviidae,NA,Oiseaux
+Rongeurs Rat musque,Ondatra zibethicus,Rodentia,Cricetidae,Ondatra,Mammifères
+Corvus frugilegus,Corvus frugilegus,Passeriformes,Corvidae,Corvus,Oiseaux
+Reptiles Couleuvre a collier,Natrix helvetica,Squamata,Natricidae,Natrix,Reptiles
+Rapaces nocturnes Chouette cheveche,Athene noctua,Strigiformes,Strigidae,Athene,Oiseaux
+epervier,Accipiter nisus,Accipitriformes,Accipitridae,Accipiter,Oiseaux
+Phasianidae,Phasianidae,Galliformes,Phasianidae,NA,Oiseaux
+Ovis gmelinii ,Ovis gmelinii,Cetartiodactyla,Bovidae,Ovis,Mammifères
+Mustela erminea,Mustela erminea,Carnivora,Mustelidae,Mustela,Mammifères
+Autres oiseaux Pic vert,Picus viridis,Piciformes,Picidae,Picus,Oiseaux
+Mustelides Belette,Mustela nivalis,Carnivora,Mustelidae,Mustela,Mammifères
+Sturnus vulgaris,Sturnus vulgaris,Passeriformes,Sturnidae,Sturnus,Oiseaux
+Rongeurs Souris,Mus musculus,Rodentia,Muridae,Mus,Mammifères
+Autres oiseaux Aigrette,Ardeidae,Pelecaniformes,Ardeidae,NA,Oiseaux
+Alcedo atthis,Alcedo atthis,Coraciiformes,Alcedinidae,Alcedo,Oiseaux
+Leporidae,Leporidae,Lagomorpha,Leporidae,NA,Mammifères
+tourterelle,Streptopelia,Columbiformes,Columbidae,Streptopelia,Oiseaux
+Autres oiseaux Choucas des tours,Corvus monedula,Passeriformes,Corvidae,Corvus,Oiseaux
+Autres oiseaux Chardonneret elegant,Carduelis carduelis,Passeriformes,Fringillidae,Carduelis,Oiseaux
+Cervidae,Cervidae,Cetartiodactyla,Cervidae,NA,Mammifères
+Autres oiseaux Canard colvert,Anas platyrhynchos,Anseriformes,Anatidae,Anas,Oiseaux
+rat,Rattus,Rodentia,Muridae,Rattus,Mammifères
+Rapaces nocturnes Hibou moyen-duc,Asio otus,Strigiformes,Strigidae,Asio,Oiseaux
+Autres oiseaux Foulque macroule,Fulica atra,Gruiformes,Rallidae,Fulica,Oiseaux
+Chiroptera,Chiroptera,Chiroptera,NA,NA,Mammifères
+Rapaces nocturnes Hibou Petit-duc,Otus scops,Strigiformes,Strigidae,Otus,Oiseaux
+Cygnus olor,Cygnus olor,Anseriformes,Anatidae,Cygnus,Oiseaux
+Reptiles Vipere,Viperidae,Squamata,Viperidae,NA,Reptiles
+Autres oiseaux Accenteur mouchet,Prunella modularis,Passeriformes,Prunellidae,Prunella,Oiseaux
+Lynx lynx,Lynx lynx,Carnivora,Felidae,Lynx,Mammifères
+Testudines,Chelonii,Chelonii,NA,NA,Reptiles
+Procyon lotor,Procyon lotor,Carnivora,Procyonidae,Procyon,Mammifères
+Laridae,Laridae,Charadriiformes,Laridae,NA,Oiseaux
+Autres oiseaux Bruant zizi,Emberiza cirlus,Passeriformes,Emberizidae,Emberiza,Oiseaux
+Lacertidae,Lacertidae,Squamata,Lacertidae,NA,Reptiles
+Autres oiseaux Grive musicienne,Turdus philomelos,Passeriformes,Turdidae,Turdus,Oiseaux
+Autres oiseaux Grive draine,Turdus viscivorus,Passeriformes,Turdidae,Turdus,Oiseaux
+Autres oiseaux Bergeronnette grise,Motacilla alba,Passeriformes,Motacillidae,Motacilla,Oiseaux
+Autres oiseaux Perdrix grise,Perdix perdix,Galliformes,Phasianidae,Perdix,Oiseaux
+Anguis fragilis,Anguis fragilis,Squamata,Anguidae,Anguis,Reptiles
+Pinson,Fringilla coelebs,Passeriformes,Fringillidae,Fringilla,Oiseaux
+Autres oiseaux Becasse,Scolopacidae,Charadriiformes,Scolopacidae,NA,Oiseaux
+Autres oiseaux Cormoran,Phalacrocoracidae,Pelecaniformes,Phalacrocoracidae,NA,Oiseaux
+Bergeronnette,Motacilla,Passeriformes,Motacillidae,Motacilla,Oiseaux
+cormoran,Phalacrocorax carbo,Pelecaniformes,Phalacrocoracidae,Phalacrocorax,Oiseaux
+Rongeurs Taupe,Talpa europaea,Eulipotyphla,Talpidae,Talpa,Mammifères
