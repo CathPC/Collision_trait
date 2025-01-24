@@ -49,6 +49,9 @@ read_traitdata <- function(database) {
   
   ## Create species name ----
   
+  trait_data <- trait_data[!is.na(trait_data$"Genus"), ]
+  trait_data <- trait_data[!is.na(trait_data$"Species"), ]
+  
   trait_data$"original_name" <- paste(trait_data$"Genus", trait_data$"Species")
   
   trait_data

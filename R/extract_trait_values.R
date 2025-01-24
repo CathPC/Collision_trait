@@ -51,6 +51,7 @@ extract_trait_values <- function(trait = "body_size") {
         
         trait_data <- data.frame(
           "database"             = database,
+          "merge_string"         = data$"merge_string",
           "accepted_name"        = data$"accepted_name",
           "original_trait_name"  = info[i, "original_trait_name"],
           "final_trait_name"     = info[i, "final_trait_name"],

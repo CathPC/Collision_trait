@@ -1,4 +1,4 @@
-#' Subset trait databases for Bioshifts species
+#' Subset trait databases for species
 #' 
 #' @description 
 #' This script contains the second step of the workflow:
@@ -29,8 +29,10 @@ species_names <- qs::qread(here::here("data", "derived-data", "species_list.qs")
 
 ## Get list of trait databases ----
 
-# trait_databases <- c("pantheria", "amphibio")
-trait_databases <- "amphibio"
+metadata <- read.csv(here::here("data", "trait_metadata.csv"))
+
+# trait_databases <- unique(metadata$"database")
+trait_databases <- "AvianBodySize"
 
 
 ## Subset 'traitdata' and export tables ----
@@ -48,7 +50,7 @@ pipeline <- lapply(trait_databases, function(database) {
     traitdata_species <- database |> 
       extract_species_names() |> 
       clean_species_names() |> 
-      retrieve_accepted_names(species_only = FALSE) |> 
+      retrieve_accepted_names() |> 
       filter_species_names(reference = species_names$"accepted_name")
     
     

@@ -92,7 +92,7 @@ filter_traitdata <- function(data, quiet = FALSE) {
   trait_datasub <- trait_data[trait_data$"original_name" %in% 
                                 data$"original_name", ]
   
-  data <- data[ , c("original_name", "accepted_name")]
+  data <- data[ , c("original_name", "accepted_name", "merge_string")]
   
   data <- merge(data, trait_datasub, by = "original_name", all = TRUE)
   

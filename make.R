@@ -21,8 +21,8 @@ devtools::install_deps(upgrade = "never")
 devtools::load_all(here::here())
 
 
-# Run project ----
+## Run project ----
 
 source(here::here("analyses", "1-clean_species_names.R"))
 source(here::here("analyses", "2-subset_trait_databases.R"))
-source(here::here("analyses", "3-extract_trait_values.R"))
+source(here::here("analyses", "3-compile_trait_data.R"))
