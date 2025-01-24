@@ -56,8 +56,8 @@ convert_trait_units <- function(data) {
         
         units(x) <- units::as_units(y)
         
-        pos <- which((metadata$"final_trait_name" == 
-                       data[i, "final_trait_name"]) & 
+        pos <- which((metadata$"original_trait_name" == 
+                       data[i, "original_trait_name"]) & 
                       metadata$"database" == data[i, "database"])
         
         z <- as.character(metadata[pos, "final_trait_units"])
