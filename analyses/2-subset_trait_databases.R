@@ -19,7 +19,7 @@
 
 ## Do not process trait databases again and again ----
 
-options("update_compilation" = TRUE)
+options("update_compilation" = FALSE)
 
 
 ## Import Bioshifts species names ----
@@ -31,8 +31,8 @@ species_names <- qs::qread(here::here("data", "derived-data", "species_list.qs")
 
 metadata <- read.csv(here::here("data", "trait_metadata.csv"))
 
-# trait_databases <- unique(metadata$"database")
-trait_databases <- "AvianBodySize"
+trait_databases <- unique(metadata$"database")
+# trait_databases <- "AvianBodySize"
 
 
 ## Subset 'traitdata' and export tables ----
